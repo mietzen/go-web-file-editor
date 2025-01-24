@@ -1,0 +1,7 @@
+localhost:8080
+
+root * static
+file_server
+
+# Proxy API requests to the Go server
+reverse_proxy /file localhost:8081
